@@ -1,6 +1,1 @@
-schutzshtaffel
-
-# 1
-
-
-# 2
+# Ты гей
