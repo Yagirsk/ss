@@ -7,8 +7,8 @@
 #define RLS A3 // R
 #define CLS A2 // C
 #define LLS A1 // L
-#define RSS 90
-#define LSS 100
+#define RSS 90 // right motor standart speed
+#define LSS 100 // left motor standart speed
 int LT = 0; // left transmition
 int RT = 0; // right transmition
 unsigned long myTime;
@@ -16,7 +16,6 @@ unsigned long myTime1;
 int coL=0;
 int coR=0;
 void setup() {
-  Serial.begin(9600);
   myTime = millis();
   pinMode(LS, OUTPUT);
   pinMode(RS, OUTPUT);
